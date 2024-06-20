@@ -12,6 +12,9 @@
             case 'register':   
                                 $pagesController->register();
                                 break;
+            case 'dashboard':
+                                $pagesController->dashboard();
+                                break;
 
             default:    
                         $pagesController->error();

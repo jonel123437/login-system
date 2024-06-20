@@ -6,8 +6,11 @@
     </head>
     <body>
         <div class="container">
-            <form action="">
+            <form action="?page=dashboard" method="POST">
                 <h1>Login</h1>
+                <div>
+                    <input type="submit" value="submit">
+                </div>
                 <div>Dont have an account yet? <a href="?page=register">Signup</a></div>
             </form>
         </div>
